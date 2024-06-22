@@ -11,9 +11,9 @@ This is the solution we provided for the [_"Image Matching Challenge 2024 - Hexa
 3. **Spatial Position Estimation**: Combine the successful match pairs from both processes of the image library, removing duplicates, and input into pycolmap to compute the final 3D spatial relationships (position and pose estimation).
 
 ## Model Links
-
 1. Source code and paper for [SuperPoint & SuperGlu](https://github.com/magicleap/SuperGluePretrainedNetwork) 
 2. [GFTT Algorithm](https://cvexplained.wordpress.com/2020/07/23/10-10-3-gftt/)
+3. [Kornia](https://kornia.readthedocs.io/en/latest/)
 
 ## Reference 
 ```
