@@ -4,7 +4,7 @@ This is the solution we provided for the [_"Image Matching Challenge 2024 - Hexa
 ## Algorithm Descriptions
 ![Flow diagram of the overall algorithm.](https://github.com/HaosenSUN/IMC-2024/blob/main/img/algorithm.png)
 
-1. **Retrieval**: Retrieval for various 3D scene image datasets, using pretrained model weights of efficientnet-b6&b7 from ImageNet to extract image data features. The selection is based on cosine distance, ranking the top n images in each scene dataset by similarity.
+1. **Retrieval**: Retrieval for various 3D scene image datasets, using pretrained model weights of Efficientnet-b6&b7 from ImageNet to extract image data features. The selection is based on cosine distance, ranking the top n images in each scene dataset by similarity.
 2. **Image Feature Keypoint Extraction and Matching**:
   - For the retrieved image library, use kornia’s corner feature detector CornerGFTT to extract relevant feature point locations. The AdaLAM algorithm is applied to calculate matches for all matching points, saving successful match pairs.
   - For the retrieved image library, use SuperPoint to extract relevant feature point locations. The SuperGlue algorithm is applied to calculate matches for all matching points, saving successful match pairs.
